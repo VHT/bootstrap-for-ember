@@ -16,6 +16,8 @@ Bootstrap.BsModalComponent = Ember.Component.extend(
     title: null
     isVisible: false
     manual: false
+    includeHeader: true
+    includeFooter: true
 
     didInsertElement: ->
         @._super()
